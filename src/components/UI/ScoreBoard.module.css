@@ -1,0 +1,47 @@
+.scoreContainer {
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scoreBoardText {
+  font-weight: 700;
+  color: rgb(12, 12, 74);
+}
+
+.score {
+  font-size: 34px;
+  color: blueviolet;
+}
+
+.scoreCard {
+  width: 135px;
+  background-color: antiquewhite;
+  border-radius: 15px;
+  text-align: center;
+}
+
+@media (max-width: 1025px) {
+  .scoreContainer {
+    width: 180px;
+  }
+
+  .scoreBoardText {
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(12, 12, 74);
+  }
+
+  .score {
+    font-size: 20px;
+    color: blueviolet;
+  }
+
+  .scoreCard {
+    width: 85px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    text-align: center;
+  }
+}

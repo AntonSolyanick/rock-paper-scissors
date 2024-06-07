@@ -1,0 +1,12 @@
+.main {
+  position: absolute;
+  margin-top: 130px;
+}
+
+@media (max-width: 1025px) {
+  .pentagon {
+    scale: 0.8;
+    z-index: -5;
+    transform: rotate(3deg);
+  }
+}
