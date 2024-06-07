@@ -35,10 +35,10 @@ button {
   align-items: center;
   justify-content: center;
   position: absolute;
+  bottom: 20px;
+  right: 40px;
   z-index: 20;
 
-  top: 85vh;
-  left: 85vw;
   cursor: pointer;
 }
 
@@ -56,10 +56,5 @@ button {
 
   h1 {
     font-size: 14px;
-  }
-
-  button {
-    top: 91vh;
-    left: 65vw;
   }
 }
