@@ -3,7 +3,8 @@ html {
   justify-content: center;
   max-width: 100vw;
   height: 100vh;
-  background: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
+  background: hsl(214, 47%, 23%);
+  background-image: radial-gradient(hsl(214, 47%, 23%), hsl(237, 49%, 15%));
   overflow: hidden;
 }
 body {
@@ -13,6 +14,7 @@ body {
 
 .container--buttons {
   width: 50vw;
+  min-height: 475px;
   margin-left: 25vw;
   margin-right: 25vw;
   display: flex;
@@ -41,5 +43,9 @@ a:focus {
   }
   .container--buttons {
     transform: rotate(254deg);
+    min-height: 360px;
+    /* width: 30vw;
+  margin-left: 35vw;
+  margin-right: 35vw; */
   }
 }
