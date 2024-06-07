@@ -31,6 +31,10 @@ body {
   scale: 1.05;
 }
 
+a:focus {
+  -webkit-tap-highlight-color: transparent;
+}
+
 @media (max-width: 1025px) {
   .button {
     transform: rotate(calc(var(--i) * (360deg / 5))) translateY(120px);

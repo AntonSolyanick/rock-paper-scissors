@@ -29,9 +29,9 @@ const Comparison: FC = () => {
       className={styles.container}
       initial={{ width: 0, left: "-300px" }}
       animate={{
-        width: "80vw",
-        marginLeft: "10vw",
-        marginRight: "10vw",
+        width: "86vw",
+        marginLeft: "7vw",
+        marginRight: "7vw",
         left: "0px",
         right: "0px",
 
