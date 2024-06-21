@@ -3,6 +3,7 @@ import store from "./store";
 
 import Layout from "./layout/Layout";
 import "./App.css";
+
 import AnimatedRoutes from "./components/AnimatedRoutes";
 
 function App() {
